@@ -1,0 +1,76 @@
+.page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.page__hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+}
+
+.page__title{
+    display: inline-block;
+    padding: 20rpx 40rpx;
+    font-size: 32rpx;
+    color: #AAAAAA;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+.btn-area{
+    padding: 0 5px;
+}
+
+.body{
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    overflow: hidden;
+}
+
+.widget{
+    position: relative;
+    padding-top: 26rpx;
+    padding-bottom: 26rpx;
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+}
+
+.widgets__item{
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding: 10rpx 0;
+    border-radius: 4rpx;
+    cursor: pointer;
+}
+.widgets__info{
+    display: flex;
+    padding: 40rpx;
+    align-items: center;
+    flex-direction: row;
+}
+
+.widgets__info_show .widgets__info-img{
+    transform: rotate(-90deg);
+}
+.widgets__info-name{
+    flex: 1;
+    background-color: red;
+}
+/*
+transform: rotate(90deg);
+transition: transform .4s;
+*/
+.widgets__info-img{
+    width: 32rpx;
+    height: 32rpx;
+}
+/*
+.section{
+    margin-bottom: 80rpx;
+}
+
+.section_gap{
+    padding: 0 30rpx;
+}*/

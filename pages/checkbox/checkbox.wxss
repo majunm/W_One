@@ -1,0 +1,32 @@
+.page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.page__hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+}
+
+.page__title{
+    display: inline-block;
+    padding: 20rpx 40rpx;
+    font-size: 32rpx;
+    color: #AAAAAA;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.checkbox{
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.flex-wrp{
+  padding: 0 30rpx;
+}
+/*.section{
+    margin-bottom: 80rpx;
+}
+.section_gap{
+    padding: 0 30rpx;
+}*/

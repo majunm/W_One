@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">底部弹窗</text>
+  </view>
+  <!--bindchange	EventHandle		点击背景或 action-sheet-cancel 按钮时触发 change 事件，不携带数据-->
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+<!--wx:for 默认角标index,数组当前项的变量名默认为item 现在改名字为a-->
+  <block wx:for="{{actionSheetItems}}" wx:for-item="a">
+    <action-sheet-item class="item" bindtap="bindItemTap" data-name="{{a}}">{{a}}</action-sheet-item>
+  </block>
+  <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet>
+<view class="btn-area">
+  <button type="default" bindtap="actionSheetTap">底部弹窗</button>
+</view>
+
+</view>

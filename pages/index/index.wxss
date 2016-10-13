@@ -1,0 +1,57 @@
+
+page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.page__hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+}
+
+.page__title{
+    display: inline-block;
+    padding: 20rpx 40rpx;
+    font-size: 32rpx;
+    color: #AAAAAA;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.page__desc{
+    display: flex;
+    margin-top: 20rpx;
+    font-size: 26rpx;
+    color: #BBBBBB;
+}
+
+.show-view {
+    margin: 0 20rpx;
+    padding: 10rpx;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+.show-scroll-view {
+    margin: 10rpx 20rpx;
+    padding: 10rpx;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: center;
+    border-radius:25px;
+    background: #10AEFF;
+    color: blueviolet;
+}
+.icon_july{
+    margin: 10rpx 20rpx;
+    padding: 10rpx;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: center;
+}

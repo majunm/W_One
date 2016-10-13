@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">页面链接</text>
+  </view>
+<!--
+url	        String		            应用内的跳转链接
+redirect	Boolean	false	        是否关闭当前页面
+hover-class	String	navigator-hover	指定点击时的样式类，当hover-class="none"时，没有点击态效果
+-->
+<view class="btn-area">
+  <navigator url="../navigator/navigator?title=navigator" hover-class="navigator-hover">
+    <button type="default">跳转到新页面</button>
+  </navigator>
+  <navigator url="../redirect/redirect?title=redirect" redirect hover-class="other-navigator-hover">
+    <button type="default">在当前页打开</button>
+  </navigator>
+</view>
+
+</view>

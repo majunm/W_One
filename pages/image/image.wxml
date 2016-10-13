@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <scroll-view scroll-y="true">
+    <view class="section section_gap" wx:for="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<!--
+src	String		图片资源地址
+mode	String	'scaleToFill'	图片裁剪、缩放的模式
+binderror	HandleEvent		当错误发生时，发布到 AppService 的事件名，事件对象event.detail = {errMsg: 'something wrong'}
+bindload	HandleEvent		当图片载入完毕时，发布到 AppService 的事件名，事件对象event.detail = {}
+-->

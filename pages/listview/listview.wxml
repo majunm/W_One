@@ -1,0 +1,21 @@
+<view class="page">
+ <view class="page__hd">
+    <text class="page__title">listview效果</text>
+  </view>
+  <view class="btn-area">
+  <view class="body">
+  <view class="widgets">
+  
+  <block wx:for-items="{{list}}">
+                <view class="widgets__item">
+                    <!--flex row -->
+                    <view id="{{item.id}}" class="widgets__info">
+                        <text class="widgets__info-name">{{item.name}}</text>
+                        <image class="widgets__info-img" src="/resources/arrowright.png" mode="aspectFill" />
+                    </view>
+        </view>
+  </block>
+  </view>
+</view>
+</view>
+</view>

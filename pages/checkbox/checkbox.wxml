@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">chekbox</text>
+  </view>
+
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{list}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+<view class="flex-wrp">
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{list}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>
+</view>
+</view>

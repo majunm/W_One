@@ -1,0 +1,32 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">view</text>
+    <text class="page__desc">弹性框模型分为弹性容器以及弹性项目。当组件的display为flex或inline-flex时，该组件则为弹性容器，弹性容器的子组件为弹性项目。</text>
+  </view>
+  <view class="show-view" bindtap="showVieComp">显示View组件</view>
+  <view class="show-scroll-view" bindtap="showScrollViewComp">显示竖直方向ScrollView组件</view>
+  <view class="show-scroll-view" bindtap="showScrollViewCompH">显示水平方向ScrollView组件</view>
+  <view class="show-view" bindtap="showSwiperComp">显示swiper组件</view>
+  <view class="show-scroll-view" bindtap="showSwiperComp2">显示swiper组件2</view>
+  <view class="icon_july" bindtap="icon_july">显示icon组件</view>
+  <view class="icon_july" bindtap="text_july">显示text组件</view>
+  <view class="icon_july" bindtap="progress_july">显示进度条组件</view>
+  <view class="icon_july" bindtap="loading_july">加载</view>
+  <view class="icon_july" bindtap="toast_july">吐司</view>
+  <view class="icon_july" bindtap="modal_july">弹窗</view>
+  <view class="icon_july" bindtap="act_sheet_july">底部菜单</view>
+  <view class="icon_july" bindtap="use_navigator_july">页面链接</view>
+  <view class="icon_july" bindtap="check_box_july">CheckBox</view>
+  <view class="icon_july" bindtap="radio_july">radio</view>
+  <view class="icon_july" bindtap="picker_july">选择器</view>
+  <view class="icon_july" bindtap="input_july">输入框</view>
+  <view class="icon_july" bindtap="form_july">Form表单</view>
+  <view class="icon_july" bindtap="switch_july">开关选择器</view>
+  <view class="icon_july" bindtap="slider_july">滑动选择器</view>
+  <view class="icon_july" bindtap="image_july">image图片</view>
+  <view class="icon_july" bindtap="audio_july">音频</view>
+  <view class="icon_july" bindtap="video_july">视频</view>
+  <view class="icon_july" bindtap="listview_july">listview</view>
+  <view class="icon_july" bindtap="network_july">请求网络栗子</view>
+  <view class="icon_july" bindtap="refresh_july">下拉刷新listview</view>
+</view>

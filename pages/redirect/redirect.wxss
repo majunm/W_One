@@ -1,0 +1,14 @@
+.page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.page__hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+    background-color: red;
+}
+
+.btn-area{
+    padding: 0 30px;
+}

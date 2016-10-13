@@ -1,0 +1,11 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">访问网络用例子</text>
+  </view>
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+        在加载中...
+   </loading>
+   <view class="page__hd">
+   <text>{{resultDescription}}</text>
+   </view>
+</view>

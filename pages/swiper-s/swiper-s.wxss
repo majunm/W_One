@@ -1,0 +1,33 @@
+
+page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.page__hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+}
+
+.section{
+    margin-bottom: 80rpx;
+}
+
+.section_gap{
+    padding: 0 30rpx;
+}
+
+.section__title{
+    margin-bottom: 16rpx;
+    margin: 0 20rpx;
+    padding: 10rpx;
+    text-align: center;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+
+.slide-image{
+background-color: #fbf9fe;
+}

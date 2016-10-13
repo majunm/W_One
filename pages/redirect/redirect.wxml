@@ -1,0 +1,6 @@
+<view class="page">
+<view style="text-align:center"> {{title}} </view>
+<view class="btn-area">
+ <view style="text-align:center">点击左上角返回回到上级页面 </view>
+</view>
+</view>

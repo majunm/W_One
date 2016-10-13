@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/scroll-vew-h/scroll-vew-h",
+    "pages/scroll-view/scroll-view",
+    "pages/swiper/swiper",
+    "pages/swiper-s/swiper-s",
+    "pages/icon/icon",
+    "pages/progress/progress",
+    "pages/loading/loading",
+    "pages/text/text",
+    "pages/toast/toast",
+    "pages/modal/modal",
+    "pages/action-sheet/action-sheet",
+    "pages/redirect/redirect",
+    "pages/navigator/navigator",
+    "pages/use-navigator/use-navigator",
+    "pages/checkbox/checkbox",
+    "pages/radio/radio",
+    "pages/picker/picker",
+    "pages/input/input",
+    "pages/form/form",
+    "pages/switch/switch",
+    "pages/slider/slider",
+    "pages/image/image",
+    "pages/audio/audio",
+    "pages/video/video",
+    "pages/listview/listview",
+    "pages/network/network",
+    "pages/refresh/refresh",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout":{
+  "request": 10000,
+  "connectSocket": 10000,
+  "uploadFile": 10000,
+  "downloadFile": 10000
+ }
+}

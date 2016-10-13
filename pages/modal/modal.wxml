@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">弹窗</text>
+  </view>
+
+<modal title="标题" confirm-text="确认" cancel-text="取消" hidden="{{modal1Hidden}}" bindconfirm="modal1Change" bindcancel="modal1Change">
+  这是对话框的内容。
+</modal>
+
+<modal class="modal" hidden="{{modal2Hidden}}" no-cancel bindconfirm="modal2Change">
+  <view> 你确定好看 </view>
+</modal>
+<view class="btn-area">
+  <button type="default" bindtap="modal1Tap">点击弹出modal</button>
+  <button type="default" bindtap="modal2Tap">点击弹出modal2</button>
+</view>
+
+</view>
