@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/index/index", 
     "pages/scroll-vew-h/scroll-vew-h",
     "pages/scroll-view/scroll-view",
     "pages/swiper/swiper",
@@ -35,6 +35,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Demo",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "resources/icon_component.png",
+      "selectedIconPath": "resources/icon_component_HL.png",
+      "text": "组件X"
+    }, {
+      "pagePath": "pages/network/network",
+      "iconPath": "resources/icon_API.png",
+      "selectedIconPath": "resources/icon_API_HL.png",
+      "text": "访问网络"
+    }]
   },
   "networkTimeout":{
   "request": 10000,
