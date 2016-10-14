@@ -1,11 +1,12 @@
 <view class="page">
  <view class="page__hd">
-    <text class="page__title">listview效果</text>
+    <text class="page__title">下拉刷新</text>
   </view>
   <view class="btn-area">
   <view class="body">
-  <view class="widgets">
   
+  <scroll-view  style="height: {{windowHeight}}px; width: {{windowWidth}}px;" scroll-y="true" bindscrolltoupper="pullDownRefresh" bindscrolltolower="pullUpLoad" >
+ <view class="widgets">
   <block wx:for-items="{{list}}">
                 <view class="widgets__item">
                     <!--flex row -->
@@ -16,6 +17,7 @@
         </view>
   </block>
   </view>
+  </scroll-view>
 </view>
 </view>
 </view>
