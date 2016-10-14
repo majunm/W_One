@@ -29,4 +29,6 @@
   <view class="icon_july" bindtap="listview_july">listview</view>
   <view class="icon_july" bindtap="network_july">请求网络栗子</view>
   <view class="icon_july" bindtap="refresh_july">下拉刷新listview</view>
+  <view class="icon_july" bindtap="template_july">模板用法</view>
+  
 </view>

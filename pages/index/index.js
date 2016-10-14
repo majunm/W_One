@@ -155,6 +155,11 @@ Page({
       url: '../refresh/refresh'
     })
   },
+  template_july:function(){
+    wx.navigateTo({
+      url: '../template/template'
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
